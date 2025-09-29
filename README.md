@@ -32,8 +32,6 @@ The results include the classification report, performance metrics, confusion ma
 <img width="684" height="194" alt="Screenshot 2025-09-29 203828" src="https://github.com/user-attachments/assets/917d3acb-6631-41a6-8124-37a32d3be5fe" />
 
 
-<img width="798" height="772" alt="Screenshot 2025-09-29 203851" src="https://github.com/user-attachments/assets/86ea9748-6c6e-4c23-8693-432e1ff3f89a" />
-
 
 <img width="1523" height="683" alt="Screenshot 2025-09-29 203805" src="https://github.com/user-attachments/assets/1bd44c55-2887-438e-9691-fa14f106f600" />
 
