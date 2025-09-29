@@ -22,6 +22,15 @@ Link: https://drive.google.com/file/d/1H9hEnBR7hicROM3iKbb6fAW7HC7dP1aX/view?usp
 The dataset used in the project consists of images of various food items categorized into 20 classes or food categories. Each food category contains approximately 200 images, contributing to a diverse and sizable dataset for training and evaluation purposes. The dataset is organized into directories, with each directory representing a specific food category which facilitates easy access and management of the dataset during preprocessing and model training stages. In the calorie 16
 dataset, the calorie contents are mapped to these class labels.
 
+MODEL RESULTS AND CLASSIFICATION REPORT:
+
+The results include the classification report, performance metrics, confusion matrix, and evaluation graphs, which together provide a comprehensive view of the model’s accuracy and effectiveness:
+<img width="414" height="403" alt="Screenshot 2025-09-29 203909" src="https://github.com/user-attachments/assets/dc40a792-5578-4ea9-9a19-70fd8a84ced3" />
+<img width="684" height="194" alt="Screenshot 2025-09-29 203828" src="https://github.com/user-attachments/assets/917d3acb-6631-41a6-8124-37a32d3be5fe" />
+<img width="798" height="772" alt="Screenshot 2025-09-29 203851" src="https://github.com/user-attachments/assets/86ea9748-6c6e-4c23-8693-432e1ff3f89a" />
+<img width="1523" height="683" alt="Screenshot 2025-09-29 203805" src="https://github.com/user-attachments/assets/1bd44c55-2887-438e-9691-fa14f106f600" />
+
+
 CONCLUSION:
 
 In conclusion, our project represents a significant advancement in the field of food recognition and calorie prediction through image processing techniques. By leveraging state-of-the-art models such as YOLOv8 and EfficientNetB3, we have developed a robust system capable of accurately identifying food items within images and predicting their calorie content. 
