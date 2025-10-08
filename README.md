@@ -19,7 +19,7 @@ DATA ACQUISITION:
 The following link consists of the dataset being used:
 Link: https://drive.google.com/file/d/1H9hEnBR7hicROM3iKbb6fAW7HC7dP1aX/view?usp=drive_link
 
-The dataset used in the project consists of images of various food items categorized into 20 classes or food categories. Each food category contains approximately 200 images, contributing to a diverse and sizable dataset for training and evaluation purposes. The dataset is organized into directories, with each directory representing a specific food category which facilitates easy access and management of the dataset during preprocessing and model training stages. In the calorie 16
+The dataset used in the project consists of images of various food items categorized into 20 classes or food categories. This has been done with a focus on Indian cuisine. Each food category contains approximately 200 images, contributing to a diverse and sizable dataset for training and evaluation purposes. The dataset is organized into directories, with each directory representing a specific food category which facilitates easy access and management of the dataset during preprocessing and model training stages. In the calorie 16
 dataset, the calorie contents are mapped to these class labels.
 
 MODEL RESULTS AND CLASSIFICATION REPORT:
