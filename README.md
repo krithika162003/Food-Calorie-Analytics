@@ -24,7 +24,7 @@ dataset, the calorie contents are mapped to these class labels.
 
 MODEL RESULTS AND CLASSIFICATION REPORT:
 
-The results include the classification report, performance metrics, confusion matrix, and evaluation graphs, which together provide a comprehensive view of the model’s accuracy and effectiveness:
+The results include the classification report, performance metrics and evaluation graphs, which together provide a comprehensive view of the model’s accuracy and effectiveness:
 
 <img width="414" height="403" alt="Screenshot 2025-09-29 203909" src="https://github.com/user-attachments/assets/dc40a792-5578-4ea9-9a19-70fd8a84ced3" />
 
