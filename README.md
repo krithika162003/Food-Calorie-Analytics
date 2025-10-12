@@ -1,47 +1,112 @@
-# Food-Calorie-Analytics
+# 🍽️ Food-Calorie-Analytics
 
-ABSTRACT:
+## 📘 Abstract
+Our project introduces a **novel approach to food calorie analytics** by integrating advanced computer vision models — **EfficientNetB3** for food classification and **YOLOv8** for food detection and segmentation.  
+With the rising prevalence of diet-related health concerns, accurately assessing the caloric content of food has become increasingly important. Traditional methods often rely on manual estimations or simplistic algorithms, leading to inaccuracies.
 
-Our project aims to present a novel approach to enhancing food calorie analytics by integrating state-of-the-art computer vision models, 
-EfficientNetB3, and YOLOv7. With the growing prevalence of dietary related health concerns, accurately assessing the caloric content of food items has become paramount. Traditional methods often rely on manual estimation or simplistic algorithms, leading to inaccuracies and inefficiencies. In this project, we propose a sophisticated framework that leverages the capabilities of EfficientNetB3 for feature extraction and image identification, and YOLOv8 for object segmentation. From the information collected through segmentation, the calorie content is calculated, facilitated by the utilization of a CSV file. We demonstrate the effectiveness of our approach through extensive experimentation on diverse food datasets, achieving significant improvements in both accuracy and efficiency compared to existing methods.
+To address this, our system employs:
+- **EfficientNetB3** for feature extraction and image classification  
+- **YOLOv8** for precise food segmentation and localization  
+- A **calorie mapping CSV file** to compute caloric values based on detected food items  
 
-MODEL SUMMARY:
+Through extensive experimentation on diverse food datasets — with a focus on **Indian cuisine** — our approach achieves **high accuracy and efficiency**, outperforming conventional calorie estimation methods.
 
-EfficientNetB3 Model:
-The food image classification model is built upon transfer learning using the EfficientNetB3 architecture, which serves as the backbone for feature extraction. Additional layers, including Batch Normalization, Dense, and Dropout layers, are appended to the base model for further processing. The food image classification model is meticulously designed to tackle the intricate task of categorizing diverse food items into 20 distinct classes. 
-Leveraging transfer learning, the model capitalizes on the EfficientNetB3 architecture, renowned for its efficiency and effectiveness in handling image classification tasks. Augmented with additional layers for fine-tuning and classification, the model undergoes rigorous training, optimizing its parameters to attain remarkable performance metrics.
+---
 
-YOLOV8 Model:
-YOLOv8, an evolution in aims to provide state-of-the-art performance in real-time object detection tasks. Its purpose is to accurately identify and localize objects within images or videos swiftly, enabling applications like surveillance, autonomous driving, and augmented reality to operate effectively. YOLOv8 achieves this by leveraging machine learning techniques, particularly deep convolutional neural networks, to make rapid and accurate decisions about the presence, class, and location of objects in visual data. Through continuous learning and refinement, YOLOv8 enhances its ability to recognize diverse objects across various environments, contributing to advancements in computer vision and enabling innovative solutions across industries.
+## 🧠 Model Summary
 
-DATA ACQUISITION:
+### 🔹 EfficientNetB3 Model (Classification)
+The food image classification model is developed using **transfer learning** with the **EfficientNetB3** architecture as the backbone.  
+Additional layers such as **Batch Normalization**, **Dense**, and **Dropout** layers are added to enhance performance.
 
-The following link consists of the dataset being used:
-Link: https://drive.google.com/file/d/1H9hEnBR7hicROM3iKbb6fAW7HC7dP1aX/view?usp=drive_link
+**Key Features:**
+- Classifies food images into **20 distinct categories**  
+- Optimized for **accuracy and generalization**  
+- Fine-tuned using a balanced Indian food dataset  
+- Uses transfer learning for faster convergence and improved performance  
 
-The dataset used in the project consists of images of various food items categorized into 20 classes or food categories. This has been done with a focus on Indian cuisine. Each food category contains approximately 200 images, contributing to a diverse and sizable dataset for training and evaluation purposes. The dataset is organized into directories, with each directory representing a specific food category which facilitates easy access and management of the dataset during preprocessing and model training stages. In the calorie 16
-dataset, the calorie contents are mapped to these class labels.
+---
 
-MODEL RESULTS AND CLASSIFICATION REPORT:
+### 🔹 YOLOv8 Model (Detection & Segmentation)
+**YOLOv8**, the latest evolution in the YOLO series, provides **state-of-the-art performance** in real-time object detection tasks.  
+It accurately identifies and localizes food items within images or videos, enabling calorie estimation with high precision.
 
-The results include the classification report, performance metrics and evaluation graphs, which together provide a comprehensive view of the model’s accuracy and effectiveness:
+**Key Features:**
+- Real-time **object detection and segmentation**  
+- High inference speed and accuracy  
+- Deep convolutional network for precise boundary detection  
+- Suitable for diverse visual environments and datasets  
 
-<img width="414" height="403" alt="Screenshot 2025-09-29 203909" src="https://github.com/user-attachments/assets/dc40a792-5578-4ea9-9a19-70fd8a84ced3" />
+---
+
+## 📂 Data Acquisition
+**Dataset Link:** [Google Drive Dataset](https://drive.google.com/file/d/1H9hEnBR7hicROM3iKbb6fAW7HC7dP1aX/view?usp=drive_link)
+
+The dataset consists of **20 Indian food categories**, each containing approximately **200 images**.  
+Every category is stored in a separate directory, simplifying preprocessing and model training.  
+Calorie values are mapped to these classes using a dedicated **CSV file** (`calorie_16.csv`), enabling calorie estimation for each recognized food item.
+
+**Dataset Highlights:**
+- 20 Indian food classes  
+- ~200 images per class  
+- Balanced and diverse image samples  
+- Calorie mapping integrated for real-world estimation  
+
+---
+
+## 📊 Model Results & Evaluation
+The project includes:
+- **Classification Report**
+- **Performance Metrics**
+- **Accuracy/Loss Curves**
+- **Evaluation Graphs**
+
+These collectively provide a comprehensive view of the model’s accuracy and effectiveness across multiple food categories.
+
+*<img width="414" height="403" alt="Screenshot 2025-09-29 203909" src="https://github.com/user-attachments/assets/dc40a792-5578-4ea9-9a19-70fd8a84ced3" />
 
 
 <img width="684" height="194" alt="Screenshot 2025-09-29 203828" src="https://github.com/user-attachments/assets/917d3acb-6631-41a6-8124-37a32d3be5fe" />
 
 
 
-<img width="1523" height="683" alt="Screenshot 2025-09-29 203805" src="https://github.com/user-attachments/assets/1bd44c55-2887-438e-9691-fa14f106f600" />
+<img width="1523" height="683" alt="Screenshot 2025-09-29 203805" src="https://github.com/user-attachments/assets/1bd44c55-2887-438e-9691-fa14f106f600" />*
 
 
 
-CONCLUSION:
+---
 
-In conclusion, our project represents a significant advancement in the field of food recognition and calorie prediction through image processing techniques. By leveraging state-of-the-art models such as YOLOv8 and EfficientNetB3, we have developed a robust system capable of accurately identifying food items within images and predicting their calorie content. 
+## 🧾 Conclusion
+Our project represents a significant advancement in the field of **food recognition and calorie prediction** using image processing.  
+By leveraging **YOLOv8** and **EfficientNetB3**, we developed a robust system capable of accurately:
+- Identifying food items in images  
+- Predicting their calorie content efficiently  
 
-FUTURE SCOPE:
+This integration of detection, classification, and calorie computation paves the way for smarter, AI-powered dietary tracking systems.
 
-Looking ahead, there are several avenues for further research and enhancement of our system. One potential direction is the integration of additional nutritional information beyond calorie content, such as macronutrient composition. By incorporating data on protein, carbohydrates, and fats, our system could provide users with even more comprehensive dietary insights, enabling them to make more nuanced and tailored choices.
+---
 
+## 🚀 Future Scope
+Future enhancements could include:
+- Integration of **additional nutritional information** beyond calories (e.g., protein, carbs, fats)  
+- Development of a **mobile or web-based interface** for real-time food calorie analysis  
+- Expansion to **multi-cuisine global datasets**  
+- Integration with **health tracking applications** and **IoT-based diet monitoring systems**  
+
+---
+
+## 🧑‍💻 Details
+- **Project Name:** Food-Calorie-Analytics   
+- **Models Used:** EfficientNetB3, YOLOv8  
+- **Frameworks:** TensorFlow, PyTorch, OpenCV  
+- **Dataset Focus:** Indian Food Classification  
+
+---
+
+## 🛠️ Tech Stack
+- **Languages:** Python  
+- **Libraries:** TensorFlow, PyTorch, OpenCV, NumPy, Pandas, Matplotlib  
+- **Models:** EfficientNetB3, YOLOv8  
+- **Environment:** Jupyter / Google Colab  
+
+---
