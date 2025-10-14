@@ -63,14 +63,14 @@ The project includes:
 
 These collectively provide a comprehensive view of the model’s accuracy and effectiveness across multiple food categories.
 
-*<img width="414" height="403" alt="Screenshot 2025-09-29 203909" src="https://github.com/user-attachments/assets/dc40a792-5578-4ea9-9a19-70fd8a84ced3" />
+<img width="414" height="403" alt="Screenshot 2025-09-29 203909" src="https://github.com/user-attachments/assets/dc40a792-5578-4ea9-9a19-70fd8a84ced3" />
 
 
 <img width="684" height="194" alt="Screenshot 2025-09-29 203828" src="https://github.com/user-attachments/assets/917d3acb-6631-41a6-8124-37a32d3be5fe" />
 
 
 
-<img width="1523" height="683" alt="Screenshot 2025-09-29 203805" src="https://github.com/user-attachments/assets/1bd44c55-2887-438e-9691-fa14f106f600" />*
+<img width="1523" height="683" alt="Screenshot 2025-09-29 203805" src="https://github.com/user-attachments/assets/1bd44c55-2887-438e-9691-fa14f106f600" />
 
 
 
